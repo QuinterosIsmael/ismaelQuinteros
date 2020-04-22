@@ -73,7 +73,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Ismael Quinteros
+                    Instituto Sedes Sapientiae<br>
+                    Programacion III<br>
+                    2020<br>
+                    Ismael Quinteros<br>
                 </div>
 
                 <div class="links">
