@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Moto;
+use App\Article;
 
-class MotoSeeder extends Seeder
+class ArticleSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,6 +12,6 @@ class MotoSeeder extends Seeder
      */
     public function run()
     {
-        factory(Moto::class, 1)->create();
+        factory(Article::class, 50)->create();
     }
 }

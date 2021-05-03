@@ -130,9 +130,25 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'nombre' => [
+            'required' => 'El nombre es necesario',
+            'string' => 'El nombre debe ser un texto',
+            'max:255' => 'El nombres es demasiado largo',
         ],
+        'tipo' => [
+            'required' => 'El tipo de articulo es necesario',
+            'string' => 'El tipo debe ser un texto',
+            'max:255' => 'El nombre del tipo es muy largo', 
+        ],
+        'cantidad'=>[
+            'required'=> 'La cantidad es necesaria',
+            'integer'=> 'La cantidad debe ser un número',
+        ],
+        'coste'=>[
+            'required'=> 'El coste es necesario',
+            'integer'=> 'El coste debe ser un número',  
+        ]
+
     ],
 
     /*

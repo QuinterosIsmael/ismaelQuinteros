@@ -16,13 +16,15 @@ class DatabaseSeeder extends Seeder
 
     //    $this->call(MotoSeeder::class);
 
-    $this->call(ProfileSeeder::class);
+    // $this->call(ProfileSeeder::class);
       
     // $this->call(CategoriaSeeder::class);
 
     // $this->call(PostSeeder::class);
     
     // $this->call(RoleSeeder::class);
+
+    $this->call(ArticleSeeder::class);
 
     }
 }

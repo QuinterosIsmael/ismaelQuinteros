@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index() {
-        return 'Hola desde el controlador';
-    }
+    // public function index() {
+    //     return 'Hola desde el controlador';
+    // }
 
     public function show(){
         $fecha = now()->format('d-m-y');
