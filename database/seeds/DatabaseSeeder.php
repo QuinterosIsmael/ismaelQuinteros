@@ -16,6 +16,8 @@ class DatabaseSeeder extends Seeder
 
     //    $this->call(MotoSeeder::class);
 
+    $this->call(NombreSeeder::class);
+
     // $this->call(ProfileSeeder::class);
       
     // $this->call(CategoriaSeeder::class);
@@ -24,7 +26,9 @@ class DatabaseSeeder extends Seeder
     
     // $this->call(RoleSeeder::class);
 
-    $this->call(ArticleSeeder::class);
+    // $this->call(ArticleSeeder::class);
+
+        
 
     }
 }

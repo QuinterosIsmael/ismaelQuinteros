@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Moto;
+use App\Nombre;
 
-class MotoSeeder extends Seeder
+class NombreSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,6 +12,6 @@ class MotoSeeder extends Seeder
      */
     public function run()
     {
-        factory(Moto::class, 9)->create();
+        factory(Nombre::class, 10)->create();
     }
 }
